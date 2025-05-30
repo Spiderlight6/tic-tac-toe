@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #39FF14;
+    --secondary-color: #871C08;
+    --header-font: Verdana;
+    --text-font: Arial;
+}
