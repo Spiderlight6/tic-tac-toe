@@ -4,15 +4,24 @@
     const createGame = function(){
         return gameBoardObject =  {
             gameboard : [
-                "0","1","2",
-                "3","4","5",
-                "6","7","8"
+                "","","",
+                "","","",
+                "","",""
             ]
         };
     };
 
     
    const gameBoard = createGame();
+
+
+   function makeMove(array){
+        array.forEach(element => {
+            
+        });
+    };
+    console.log(makeMove(gameBoard.gameboard));
+    
    
 })();
 
@@ -23,4 +32,8 @@ const createPlayer = function(name){
 
     return player;
 };
+
+const player1 = createPlayer("Player1");
+const player2 = createPlayer("Player2");
+
 
